@@ -129,10 +129,10 @@
 			
 			<object id="4" name="ContentText" width="718" height="210" x="20" y="220" embedFonts="" selectable="">
 				<![CDATA[<font color="#bdf1ff" size="12"><i>Los Agelust is based out of LA. But known world wide. 
-Los Agelust Los Agelust Los Agelust Los Agelust 
+Los Agelust Los Agelust Los Agelust Los Agelust ]]>
 			</object>
 			
-			<object id="5" name="GradientButton" width="264" height="198" x="20" y="450" click="page,1">
+			<object id="5" name="GradientButton" width="264" height="198" x="20" y="280" click="page,1">
 				<property id="1" embedFonts="true"><![CDATA[<font color="#ffc2e2" size="23" face="Kartika"><b>ENTER SITE</b></font>]]></property>
 			</object>
 		</contentBlock>
