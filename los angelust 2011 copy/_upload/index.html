@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Xml_load</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="language" content="en" />
+
+  <!-- Ruffle Flash Emulator -->
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("DOMContentLoaded", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+
+      // Apply full-screen styles directly to the player
+      player.style.width = "100vw";
+      player.style.height = "100vh";
+      player.style.display = "block";
+
+      const container = document.getElementById("altContent");
+      container.innerHTML = "";
+      container.appendChild(player);
+
+      // Load the SWF
+      player.load("preload.swf");
+    });
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      overflow: hidden;
+    }
+    #altContent {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="altContent">
+    <h1 style="color:white;">Loading preload.swf...</h1>
+  </div>
+</body>
+</html>
