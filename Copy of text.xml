@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+	
+	<contentBlock id="6">
+		
+		<object id="0" name="GradientText" width="80" height="50" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130"></font>]]></property>
+		</object>
+		
+		<object id="1" name="GradientText" width="70" height="10" x="35" y="20">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="78"><b>Los</font>]]></property>
+		</object>
+		
+		<object id="3" name="GradientText" width="70" height="50" x="35" y="40">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="80">Angelust</font>]]></property>
+		</object>
+		
+		<object id="6" name="SimpleImage" width="718" height="20" x="35" y="115" embedFonts="" selectable="">
+			<![CDATA[contentPics/nameBG02.png]]>
+		</object>
+		
+		<object id="7" name="ContentText" width="300" height="50" x="50" y="113" embedFonts="true" selectable="">
+			<![CDATA[<font color="#ffffff" size="55" face="Kartika"><b> A </font>]]>
+		</object>
+		
+	</contentBlock>
+	
+	<contentBlock id="3">
+		<object id="0" name="playerMp3" width="300" height="300" x="1020" y="23">
+			
+			<property id="1" embedFonts=""><![CDATA[<font color="#d904c9" size="10">SOUND</font>]]></property>
+			
+			<dataMP3>
+				<item id="0">
+					<track><![CDATA[song 01]]></track>
+					<file><![CDATA[music/1.mp3]]></file>
+				</item>
+				
+				<item id="1">
+					<track><![CDATA[song 02]]></track>
+					<file><![CDATA[music/2.mp3]]></file>
+				</item>
+				
+				<item id="2">
+					<track><![CDATA[song 03]]></track>
+					<file><![CDATA[music/3.mp3]]></file>
+				</item>
+			</dataMP3>
+			
+		</object>
+		<object id="2" name="ContentText" width="300" height="50" x="51" y="23" embedFonts="" selectable="">
+<![CDATA[<a href="event:openPopup,1"><font color="#f53dc9" size="11">Copyright 2011 Los Angelust. All Rights Reserved.Devloped Bywww.GATLOC.com </font></a>]]> </object>
+		
+		<object id="3" name="ContentText" width="80" height="50" x="920" y="23" embedFonts="" selectable="">
+			<![CDATA[<a href="event:fullScreen,switch"><font color="#d904c9" size="10">FULL SCREEN</font></a>]]>
+		</object>
+		
+	</contentBlock>
+	
+	<contentBlock id="4">
+		<object id="0" name="SiteMenu" width="300" height="300" x="90" y="80">
+			<data>
+				<item id="1" pageId="1">
+					<property id="1"><![CDATA[Los Angelust]]></property>
+					<data>
+						<item id="1" pageId="2">
+							<property id="1"><![CDATA[MY BIOGRAPHY]]></property>
+						</item>
+						<item id="2" pageId="3">
+							<property id="1"><![CDATA[LINKS RELATED]]></property>
+						</item>
+					</data>
+				</item>
+				
+				<item id="2" pageId="4">
+					<property id="1"><![CDATA[NEWS]]></property>
+					<data>
+						<item id="1" pageId="5">
+							<property id="1"><![CDATA[2005]]></property>
+						</item>
+						<item id="2" pageId="6">
+							<property id="1"><![CDATA[2006]]></property>
+						</item>
+						<item id="3" pageId="7">
+							<property id="1"><![CDATA[2007]]></property>
+						</item>
+						<item id="4" pageId="8">
+							<property id="1"><![CDATA[2008]]></property>
+						</item>
+					</data>
+				</item>
+				
+				<item id="3" pageId="9">
+					<property id="1"><![CDATA[CLIENTS]]></property>
+					<data>
+						<item id="1" pageId="10">
+							<property id="1"><![CDATA[VINTAGE]]></property>
+						</item>
+						<item id="2" pageId="11">
+							<property id="1"><![CDATA[PUBLICITY]]></property>
+						</item>
+						<item id="3" pageId="12">
+							<property id="1"><![CDATA[INDUSTRIAL]]></property>
+						</item>
+					</data>
+				</item>
+				
+				<item id="4" pageId="13">
+					<property id="1"><![CDATA[GALLERIES]]></property>
+					<data>
+						<item id="1" pageId="14">
+							<property id="1"><![CDATA[PEOPLE]]></property>
+						</item>
+						<item id="2" pageId="15">
+							<property id="1"><![CDATA[CANDLES]]></property>
+						</item>
+						<item id="3" pageId="16">
+							<property id="1"><![CDATA[NATURE]]></property>
+						</item>
+						<item id="4" pageId="17">
+							<property id="1"><![CDATA[OBJECTS]]></property>
+						</item>
+					</data>
+				</item>
+				
+				<item id="5" pageId="18">
+					<property id="1"><![CDATA[CONTACTS]]></property>
+					<data>
+						<item id="1" pageId="19">
+							<property id="1"><![CDATA[CONTACT INFO]]></property>
+						</item>
+						<item id="2" pageId="20">
+							<property id="1"><![CDATA[CONTACT FORM]]></property>
+						</item>
+					</data>
+				</item>
+			</data>
+		</object>
+	</contentBlock>
+	
+	<page id="0" name="splash">
+		<contentBlock id="1">
+			<object id="0" name="GradientText" width="80" height="50" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="150">J</font>]]></property>
+			</object>
+			
+			<object id="1" name="GradientText" width="80" height="50" x="40" y="16">
+					<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="50"><b>asmine</font>]]></property>
+			</object>
+			
+			<object id="3" name="GradientText" width="250" height="100" x="35" y="50">
+					<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="97">Bennett</font>]]></property>
+			</object>
+			
+			<object id="6" name="SimpleImage" width="718" height="210" x="40" y="140" embedFonts="" selectable="">
+				<![CDATA[contentPics/nameBG.png]]>
+			</object>
+			
+			<object id="7" name="ContentText" width="718" height="210" x="60" y="138" embedFonts="true" selectable="">
+				<![CDATA[<font color="#ffffff" size="31" face="Kartika"><b>Los Agelust</font>]]>
+			</object>
+			
+			<object id="4" name="ContentText" width="718" height="210" x="20" y="180" embedFonts="" selectable="">
+				<![CDATA[<font color="#bdf1ff" size="12"><i>Los Agelust is based out of LA. But known world wide  , Chraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. 
+	Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.</i></font>]]>
+			</object>
+			
+			<object id="5" name="GradientButton" width="264" height="198" x="20" y="330" click="page,1">
+				<property id="1" embedFonts="true"><![CDATA[<font color="#ffc2e2" size="23" face="Kartika"><b>ENTER SITE</b></font>]]></property>
+			</object>
+		</contentBlock>
+	</page>
+	
+	<page id="1" name="ABOUT ME" type="1">
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="250" height="100" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">About</font>]]></property>
+			</object>
+			
+			<object id="3" name="ScrollBar" width="740" height="210" x="0" y="150">
+				<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+				<content>
+					
+					<object id="0" name="ContentImage" width="264" height="198" x="5" y="5">
+						<property id="1"><![CDATA[contentPics/sp01_pic1.jpg]]></property>
+					</object>
+					
+					<object id="2" name="ContentText" width="482" height="197" x="275" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="700" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="2" name="MY BIOGRAPHY" type="1">
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="250" height="100" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">My</font>]]></property>
+			</object>
+			
+			<object id="2" name="GradientText" width="250" height="40" x="116" y="23">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">biography</font>]]></property>
+			</object>
+			
+			<object id="3" name="ScrollBar" width="740" height="210" x="0" y="150">
+				<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+				<content>
+					
+					<object id="0" name="ContentImage" width="264" height="198" x="5" y="5">
+						<property id="1"><![CDATA[contentPics/sp01_pic1.jpg]]></property>
+					</object>
+					
+					<object id="2" name="ContentText" width="482" height="197" x="275" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="700" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="3" name="LINKS RELATED" type="1">
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="250" height="80" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Links</font>]]></property>
+			</object>
+			
+			<object id="2" name="GradientText" width="250" height="40" x="210" y="23">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">related</font>]]></property>
+			</object>
+			
+			<object id="3" name="ScrollBar" width="430" height="210" x="0" y="150">
+				<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+				<content>
+				
+					<object id="2" name="ContentText" width="430" height="200" x="5" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta.<br><br><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit<br><font color="#FFFFFF"><b>www.companyname.com</b></font><br> sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="430" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta.<br><br><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit<br><font color="#FFFFFF"><b>www.companyname.com</b></font><br> sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="4" name="news" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="0" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[<fonts size="10">best of 2006</font>>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[<font size="10">best of 2007</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+				
+				<item id="2">
+					<property id="1"><![CDATA[<font size="10">best of 2008</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic3.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="5" name="2005" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="0" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[<font size="10">news 01 / 21 / 2005</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic4.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[<font size="10">news 05 / 10 / 2005</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic5.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+				
+				<item id="2">
+					<property id="1"><![CDATA[<font size="10">news 10 / 08 / 2005</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic6.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="6" name="2006" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="0" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[<font size="10">news 01 / 21 / 2006</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[<font size="10">news 05 / 10 / 2006</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+				
+				<item id="2">
+					<property id="1"><![CDATA[<font size="10">news 10 / 08 / 2006</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic3.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="7" name="2007" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="0" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[<font size="10">news 01 / 21 / 2007</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[<font size="10">news 05 / 10 / 2007</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+				
+				<item id="2">
+					<property id="1"><![CDATA[<font size="10">news 10 / 08 / 2007</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic6.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="8" name="2008" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="0" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[<font size="10">news 01 / 21 / 2008</font>>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic5.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[<font size="10">news 05 / 10 / 2008</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+				
+				<item id="2">
+					<property id="1"><![CDATA[<font size="10">news 10 / 08 / 2008</font>]]></property>
+					<property id="1"><![CDATA[<font size="10">news 10 / 08 / 2008</font>]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="9" name="Clients" type="1">
+		
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="250" height="100" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">About clients</font>]]></property>
+			</object>
+			
+			<object id="3" name="ScrollBar" width="740" height="210" x="0" y="150">
+				<property id="1"><![CDATA[]]></property>
+				<content>
+					
+					<object id="2" name="ContentText" width="700" height="197" x="0" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="700" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	
+	<page id="12" name="Industrial" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="30" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[> client 1]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Industrial</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="175" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">Engineering</font>]]>
+						</property>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="195" x="0" y="130">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="204" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp05_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="500" height="130" x="230" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[> client2]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="11" name="publicity" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="30" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[> client 1]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Music</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="240" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">Promotion</font>]]>
+						</property>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="195" x="0" y="130">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="204" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp05_pic2.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="500" height="130" x="230" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+					
+				</item>
+				
+				<item id="1">
+					<property id="1"><![CDATA[> client2]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Lorem</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="50" y="16">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">ipsum dolor sit amet</font>]]>
+						</property>
+						</object>
+						
+						<object id="1" name="ContentText" width="740" height="50" x="5" y="140" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="150" x="0" y="190">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="264" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp04_pic1.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="482" height="130" x="275" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+							</content>
+						</object>
+					</content>
+				</item>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+		
+	<page id="10" name="vintage" type="1">
+		
+		<contentBlock id="2">
+			<object id="3" name="AdvansedContent" width="300" height="300" x="30" y="300">
+				<item id="0">
+					<property id="1"><![CDATA[> client 1]]></property>
+					<content>
+						<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Infiniti</font>]]></property>
+						</object>
+				
+						<object id="2" name="GradientText" width="320" height="40" x="0" y="-5">
+							<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">corp</font>]]>
+						</property>
+						</object>
+						
+						<object id="3" name="ScrollBar" width="740" height="195" x="0" y="130">
+							<property id="1"><![CDATA[]]></property>
+							<content>
+								
+								<object id="0" name="ContentImage" width="204" height="138" x="5" y="5">
+									<property id="1"><![CDATA[contentPics/sp05_pic3.jpg]]></property>
+								</object>
+								
+								<object id="2" name="ContentText" width="500" height="130" x="230" y="5" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+								<object id="3" name="ContentText" width="700" height="200" x="5" y="160" embedFonts="" selectable="">
+								<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+								</object>
+					
+						</content>
+					</object>
+				</content>
+					
+			</item>
+				
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="13" name="gallery" type="2">
+		
+		<contentBlock id="2">
+			
+			<object id="3" name="SiteGallery" width="300" height="300" x="10" y="300">
+				<galleryControls>
+					
+					<control id="1" x="830" y="22">
+						<property id="1"><![CDATA[ZOOM OUT]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_out.png]]></property>
+					</control>
+					
+					<control id="2" x="750" y="22">
+						<property id="1"><![CDATA[ZOOM IN]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_in.png]]></property>
+					</control>
+					
+					<control id="3" x="420" y="22">
+						<property id="1"><![CDATA[SLIDESHOW ON/OFF]]></property>
+					</control>
+					
+					<control id="4" x="540" y="22">
+						<property id="1"><![CDATA[INTERVAL]]></property>
+					</control>
+					
+				</galleryControls>
+				
+				<galleryData>
+					<pic id="0">
+						<picPreview><![CDATA[portfolio/nature/small/01.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/01.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="1">
+						<picPreview><![CDATA[portfolio/animals/small/02.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/02.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="2">
+						<picPreview><![CDATA[portfolio/nature/small/03.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/03.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="3">
+						<picPreview><![CDATA[portfolio/animals/small/04.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/04.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="4">
+						<picPreview><![CDATA[portfolio/objects/small/05.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/05.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+				</galleryData>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	
+	<page id="14" name="people" type="2">
+		
+		<contentBlock id="2">
+			
+			<object id="3" name="SiteGallery" width="300" height="300" x="10" y="300">
+				<galleryControls>
+					
+					<control id="1" x="830" y="22">
+						<property id="1"><![CDATA[ZOOM OUT]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_out.png]]></property>
+					</control>
+					
+					<control id="2" x="750" y="22">
+						<property id="1"><![CDATA[ZOOM IN]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_in.png]]></property>
+					</control>
+					
+					<control id="3" x="420" y="22">
+						<property id="1"><![CDATA[SLIDESHOW ON/OFF]]></property>
+					</control>
+					
+					<control id="4" x="540" y="22">
+						<property id="1"><![CDATA[INTERVAL]]></property>
+					</control>
+					
+				</galleryControls>
+				
+				<galleryData>
+					<pic id="0">
+						<picPreview><![CDATA[portfolio/people/small/01.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/01.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="1">
+						<picPreview><![CDATA[portfolio/people/small/02.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/02.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="2">
+						<picPreview><![CDATA[portfolio/people/small/03.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/03.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="3">
+						<picPreview><![CDATA[portfolio/people/small/04.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/04.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="4">
+						<picPreview><![CDATA[portfolio/people/small/05.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/05.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="5">
+						<picPreview><![CDATA[portfolio/people/small/06.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/06.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="6">
+						<picPreview><![CDATA[portfolio/people/small/07.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/07.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="7">
+						<picPreview><![CDATA[portfolio/people/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/08.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="8">
+						<picPreview><![CDATA[portfolio/people/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/09.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="9">
+						<picPreview><![CDATA[portfolio/people/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="10">
+						<picPreview><![CDATA[portfolio/people/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/11.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="11">
+						<picPreview><![CDATA[portfolio/people/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/12.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="12">
+						<picPreview><![CDATA[portfolio/people/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/people/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+				</galleryData>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	
+	<page id="15" name="animals" type="2">
+		
+		<contentBlock id="2">
+			
+			<object id="3" name="SiteGallery" width="300" height="300" x="10" y="300">
+				<galleryControls>
+					
+					<control id="1" x="830" y="22">
+						<property id="1"><![CDATA[ZOOM OUT]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_out.png]]></property>
+					</control>
+					
+					<control id="2" x="750" y="22">
+						<property id="1"><![CDATA[ZOOM IN]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_in.png]]></property>
+					</control>
+					
+					<control id="3" x="420" y="22">
+						<property id="1"><![CDATA[SLIDESHOW ON/OFF]]></property>
+					</control>
+					
+					<control id="4" x="540" y="22">
+						<property id="1"><![CDATA[INTERVAL]]></property>
+					</control>
+					
+				</galleryControls>
+				
+				<galleryData>
+					<pic id="0">
+						<picPreview><![CDATA[portfolio/animals/small/01.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/01.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="1">
+						<picPreview><![CDATA[portfolio/animals/small/02.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/02.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="2">
+						<picPreview><![CDATA[portfolio/animals/small/03.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/03.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="3">
+						<picPreview><![CDATA[portfolio/animals/small/04.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/04.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="4">
+						<picPreview><![CDATA[portfolio/animals/small/05.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/05.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="5">
+						<picPreview><![CDATA[portfolio/animals/small/06.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/06.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="6">
+						<picPreview><![CDATA[portfolio/animals/small/07.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/07.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="7">
+						<picPreview><![CDATA[portfolio/animals/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/08.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="8">
+						<picPreview><![CDATA[portfolio/animals/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/09.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="9">
+						<picPreview><![CDATA[portfolio/animals/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="10">
+						<picPreview><![CDATA[portfolio/animals/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/11.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="11">
+						<picPreview><![CDATA[portfolio/animals/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/12.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="12">
+						<picPreview><![CDATA[portfolio/animals/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/animals/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+				</galleryData>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	
+	<page id="16" name="nature" type="2">
+		
+		<contentBlock id="2">
+			
+			<object id="3" name="SiteGallery" width="300" height="300" x="10" y="300">
+				<galleryControls>
+					
+					<control id="1" x="830" y="22">
+						<property id="1"><![CDATA[ZOOM OUT]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_out.png]]></property>
+					</control>
+					
+					<control id="2" x="750" y="22">
+						<property id="1"><![CDATA[ZOOM IN]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_in.png]]></property>
+					</control>
+					
+					<control id="3" x="420" y="22">
+						<property id="1"><![CDATA[SLIDESHOW ON/OFF]]></property>
+					</control>
+					
+					<control id="4" x="540" y="22">
+						<property id="1"><![CDATA[INTERVAL]]></property>
+					</control>
+					
+				</galleryControls>
+				
+				<galleryData>
+					<pic id="0">
+						<picPreview><![CDATA[portfolio/nature/small/01.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/01.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="1">
+						<picPreview><![CDATA[portfolio/nature/small/02.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/02.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="2">
+						<picPreview><![CDATA[portfolio/nature/small/03.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/03.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="3">
+						<picPreview><![CDATA[portfolio/nature/small/04.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/04.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="4">
+						<picPreview><![CDATA[portfolio/nature/small/05.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/05.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="5">
+						<picPreview><![CDATA[portfolio/nature/small/06.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/06.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="6">
+						<picPreview><![CDATA[portfolio/nature/small/07.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/07.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="7">
+						<picPreview><![CDATA[portfolio/nature/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/08.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="8">
+						<picPreview><![CDATA[portfolio/nature/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/09.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="9">
+						<picPreview><![CDATA[portfolio/nature/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="10">
+						<picPreview><![CDATA[portfolio/nature/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/11.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="11">
+						<picPreview><![CDATA[portfolio/nature/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/12.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="12">
+						<picPreview><![CDATA[portfolio/nature/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/nature/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+				</galleryData>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	
+	<page id="17" name="objects" type="2">
+		
+		<contentBlock id="2">
+			
+			<object id="3" name="SiteGallery" width="300" height="300" x="10" y="300">
+				<galleryControls>
+					
+					<control id="1" x="830" y="22">
+						<property id="1"><![CDATA[ZOOM OUT]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_out.png]]></property>
+					</control>
+					
+					<control id="2" x="750" y="22">
+						<property id="1"><![CDATA[ZOOM IN]]></property>
+						<property id="2"><![CDATA[contentPics/icon_zoom_in.png]]></property>
+					</control>
+					
+					<control id="3" x="420" y="22">
+						<property id="1"><![CDATA[SLIDESHOW ON/OFF]]></property>
+					</control>
+					
+					<control id="4" x="540" y="22">
+						<property id="1"><![CDATA[INTERVAL]]></property>
+					</control>
+					
+				</galleryControls>
+				
+				<galleryData>
+					<pic id="0">
+						<picPreview><![CDATA[portfolio/objects/small/01.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/01.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="1">
+						<picPreview><![CDATA[portfolio/objects/small/02.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/02.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="2">
+						<picPreview><![CDATA[portfolio/objects/small/03.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/03.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="3">
+						<picPreview><![CDATA[portfolio/objects/small/04.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/04.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="4">
+						<picPreview><![CDATA[portfolio/objects/small/05.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/05.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="5">
+						<picPreview><![CDATA[portfolio/objects/small/06.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/06.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="6">
+						<picPreview><![CDATA[portfolio/objects/small/07.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/07.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="7">
+						<picPreview><![CDATA[portfolio/objects/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/08.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="8">
+						<picPreview><![CDATA[portfolio/objects/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/09.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="9">
+						<picPreview><![CDATA[portfolio/objects/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="10">
+						<picPreview><![CDATA[portfolio/objects/small/08.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/11.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="11">
+						<picPreview><![CDATA[portfolio/objects/small/09.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/09.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+					<pic id="12">
+						<picPreview><![CDATA[portfolio/objects/small/10.jpg]]></picPreview>
+						<bigPic><![CDATA[portfolio/objects/big/10.jpg]]></bigPic>
+						<photoName><![CDATA[<font color="#a54be1">image 001</font>]]></photoName>
+					</pic>
+				</galleryData>
+			</object>
+			
+		</contentBlock>
+		
+	</page>
+	<page id="18" name="contact Link" type="1">
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="250" height="80" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Links</font>]]></property>
+			</object>
+			
+			<object id="2" name="GradientText" width="250" height="40" x="210" y="23">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">contact</font>]]></property>
+			</object>
+			
+			<object id="3" name="ScrollBar" width="430" height="210" x="0" y="150">
+				<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+				<content>
+				
+					<object id="2" name="ContentText" width="430" height="200" x="5" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta.<br><br><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit<br><font color="#FFFFFF"><b>www.companyname.com</b></font><br> sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="430" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta.<br><br><font color="#FFFFFF"><b>www.companyname.com</b></font><br>Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit<br><font color="#FFFFFF"><b>www.companyname.com</b></font><br> sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+	</page>
+	
+	<page id="19" name="contact Link" type="1">
+		<contentBlock id="1">
+			
+			<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Contact</font>]]></property>
+			</object>
+				
+			<object id="2" name="GradientText" width="320" height="40" x="175" y="16">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">information</font>]]></property>
+			</object>
+			<object id="0" name="ContentImage" width="264" height="198" x="5" y="150">
+				<property id="1"><![CDATA[contentPics/sp06_pic1.jpg]]></property>
+			</object>
+					
+			<object id="2" name="ContentText" width="482" height="197" x="275" y="150" embedFonts="" selectable="">
+				<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+			</object>
+
+		</contentBlock>
+	</page>
+	
+	<page id="20" name="contacts" type="1">
+		
+		<contentBlock id="1">
+			<object id="0" name="GradientText" width="400" height="100" x="0" y="0">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Garamond" color="#d2089b" size="130">Contact</font>]]></property>
+			</object>
+				
+			<object id="2" name="GradientText" width="320" height="40" x="175" y="16">
+				<property id="1" embedFonts="true"><![CDATA[<font face="Footlight MT Light" color="#b5c7d2" size="39">information</font>]]></property>
+			</object>
+			
+			<object id="3" name="ContactForm" width="300" height="300" x="5" y="150">
+				<property id="1"><![CDATA[<i>Your Name:</i>]]></property>
+				<property id="2"><![CDATA[<i>Your Phone:</i>]]></property>
+				<property id="3"><![CDATA[<i>Your Fax:</i>]]></property>
+				<property id="4"><![CDATA[<i>Your E-mail:</i>]]></property>
+				<property id="5"><![CDATA[<i>Your Message:</i>]]></property>
+				
+				<controls>
+					<item id="1" x="653" y="172">
+						<property id="1"><![CDATA[SUBMIT]]></property>
+					</item>
+					<item id="2" x="584" y="172">
+						<property id="1"><![CDATA[CLEAR]]></property>
+					</item>
+				</controls>
+				
+			</object>
+		</contentBlock>
+	</page>
+	
+	<popup id="1">
+		<contentBlock id="1">
+			
+			<object id="3" name="ScrollBar" width="500" height="500" x="0" y="20">
+				<property id="1"><![CDATA[contentPics/sp04_pic2.jpg]]></property>
+				<content>
+					
+					<object id="0" name="ContentImage" width="264" height="198" x="5" y="5">
+						<property id="1"><![CDATA[contentPics/sp01_pic1.jpg]]></property>
+					</object>
+					
+					<object id="2" name="ContentText" width="300" height="197" x="275" y="5" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+					<object id="3" name="ContentText" width="420" height="200" x="5" y="210" embedFonts="" selectable="">
+						<![CDATA[<font size="12" color="#bdf1ff"><i><font color="#FFFFFF"><b>Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamop rem aperiam eaque ipsa.</b></font><br>Quae ab illo inventore veritatisopUt wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eaet quasi archi-tecto beatae vitae dicta. 
+Sunt,explicabo. nemo enimquia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturmagni
+ aspernatur aut odit aut fugit, sed quia conseq.uunturmagni dolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi 
+quia voluptas sit, aspernatur aut odit aut fugit, sed quia conseq.uunturdolores montupeos, qui ratione voluptatem sequinesciunt, neque porro quisquam est, qui dolorem ipsumquia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea cotempora incidunt, ut labore et dolore.Magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea </font>]]>
+					</object>
+					
+				</content>
+			</object>
+			
+		</contentBlock>
+	</popup>
+	
+</content>
